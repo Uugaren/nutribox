@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#f9fafb] text-nutribox-dark overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-white/70 backdrop-blur-md border border-white/40 shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_20px_40px_-15px_rgba(0,0,0,0.05)];
+  }
+  
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Taste-Skill Liquid Swipe Transition classes */
+::selection {
+  background: #E41E26;
+  color: white;
+}
