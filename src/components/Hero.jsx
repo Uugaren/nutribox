@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import MagneticButton from "./MagneticButton";
 import { ArrowRight, Leaf, Fire } from "@phosphor-icons/react";
 import logo from "../../images/logo-removebg-preview.png";
+import parmegianaImg from "../../images/parmegiana.png";
 
 export default function Hero() {
   return (
@@ -82,7 +83,7 @@ export default function Hero() {
           <motion.img 
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            src="../../images/parmegiana.png"
+            src={parmegianaImg}
             alt="Parmegiana Nutribox" 
             className="absolute inset-0 w-full h-full object-cover origin-center"
           />

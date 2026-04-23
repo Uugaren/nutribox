@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Star, Medal } from "@phosphor-icons/react";
+import esquivaImg from "../../images/esquiva-falcao.png";
 
 const testimonials = [
   {
@@ -45,8 +46,7 @@ export default function Testimonials() {
               <div className="relative">
                 <div className="w-48 h-48 rounded-full bg-gradient-to-tr from-nutribox-red to-nutribox-gold p-1">
                   <div className="w-full h-full bg-black rounded-full overflow-hidden border-4 border-nutribox-dark">
-                     {/* Esquiva Falcão Picture placeholder (since we don't have his real photo locally) */}
-                    <img src="../../images/esquiva-falcao.png" alt="Esquiva Falcão" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
+                    <img src={esquivaImg} alt="Esquiva Falcão" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
                   </div>
                 </div>
                 <div className="absolute -bottom-4 -right-4 bg-white text-nutribox-dark p-3 rounded-full shadow-xl">
