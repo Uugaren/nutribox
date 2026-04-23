@@ -38,7 +38,9 @@ export default function Footer() {
         </div>
         
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-          <p>&copy; {new Date().getFullYear()} Nutribox. Todos os direitos reservados.</p>
+          <p className="text-center md:text-left">
+            &copy; {new Date().getFullYear()} Nutribox. Todos os direitos reservados. <span className="hidden md:inline">|</span><br className="md:hidden" /> Criado por <a href="mailto:arthur.devrocha@gmail.com" className="hover:text-white transition-colors underline decoration-white/30">arthur.devrocha@gmail.com</a>
+          </p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">Termos de Uso</a>
             <a href="#" className="hover:text-white transition-colors">Privacidade</a>
