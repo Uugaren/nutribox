@@ -32,8 +32,7 @@ export default function Footer() {
             <h4 className="font-bold mb-6">Contato</h4>
             <ul className="space-y-4 text-gray-400">
               <li>Grande Vitória, ES</li>
-              <li>(27) xxxxx-xxxx</li>
-              <li>xxxx@nutribox.com</li>
+              <li>(27)99641-5109</li>
             </ul>
           </div>
         </div>
